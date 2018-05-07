@@ -3,7 +3,7 @@ import com.sinet.main.CosineUtil;
 
 import java.util.Map;
 
-public class Main {
+public class Test {
 
     public static void main(String[] args) throws Exception {
         String s1 = "本专题将研究开发低重稀土Nd-Fe-B烧结永磁材料的制备技术，并建成一条年产3000吨高性能钕铁硼永磁材料生产线。主要研发内容包括：1)制备永磁材料母合金的研究；2)制粉工艺的研究；3)成型技术及烧结工艺的研究；4)Magrise技术及研究表面处理技术的研究等。";

@@ -21,7 +21,6 @@ public class CosineUtil {
     }
 
     /**
-     * 分词，字符串长度不能小于3
      * @param string
      * @return
      * @throws Exception
