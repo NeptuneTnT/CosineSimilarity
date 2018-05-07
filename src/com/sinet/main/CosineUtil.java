@@ -110,6 +110,23 @@ public class CosineUtil {
         participleCacheList.add(hashMap);
     }
 
+    /**
+     * 添加缓存2
+     * @param map
+     */
+    public static void addCache2(Map<String,String> map) throws Exception {
+        String id = objToString(map.get("id"));
+        String text = map.get("text");
+        String name = map.get("name");
+        Map<String, Integer>  participle = CosineUtil.participle(text);
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("id",id);
+        hashMap.put("text",participle);
+        hashMap.put("name",name);
+        hashMap.put("content",text);
+        participleCacheList.add(hashMap);
+    }
+
     public static List<String> compared(String s) throws Exception {
         if (s == null || s == "") {
             return null;
